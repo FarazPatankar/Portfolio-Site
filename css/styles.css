@@ -1,15 +1,17 @@
 body {
-    background-color: #126bba;
+    background-color: #0288d1;
 }
 
 /*Home*/
 #home {
     width: 100%;
     height: 100%;
+    display: inline-table;
 }
 
 .intro-div {
-    margin-top: 15%;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .name {
@@ -28,12 +30,59 @@ body {
 }
 /*Home*/
 
-/*Navbar*/
-.nav-bar {
-    background-color: #126bba;
-    box-shadow: none;
+/*Skills*/
+#skills {
+    width: 100%;
+    height: 100%;
 }
-/*Navbar*/
+/*Skills*/
+
+/*Links*/
+
+#about-link {
+    top: 4%;
+    right: 50%;
+    position: absolute;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+
+#skills-link {
+    bottom: 4%;
+    right: 50%;
+    position: absolute;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+
+#work-link {
+    bottom: 50%;
+    left: 4%;
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    position: absolute;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+
+#contact-link {
+    bottom: 50%;
+    right: 4%;
+    transform: rotate(270deg);
+    transform-origin: right top 0;
+    position: absolute;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+}
+/*Links*/
 
 /*Auto Typing CSS*/
 .typed-cursor {
